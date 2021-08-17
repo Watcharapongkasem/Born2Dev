@@ -1,0 +1,80 @@
+div.container div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.infoBMI {
+    border: 1px solid black;
+    background-color: burlywood;
+    height: 175px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert {
+    text-align: center;
+    padding: .375rem .75rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+div.input-group {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#box-sport {
+    border: 1px solid black;
+    position: relative;
+    width: 100%;    
+    background-color: burlywood;
+}
+
+.titleSport {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;      
+}
+
+@media (min-width: 769px){
+    .col-md-4 {
+        width: 30%;
+        height: 200px;
+        border: 1px solid maroon;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+        position: relative;
+        float: left;        
+    }
+}
+
+@media (max-width: 768px){
+    .col-md-4 {
+        width: 100%;
+        height: 200px;
+        border: 1px solid maroon;
+        margin-right: 1.5%;
+        position: relative;
+        float: left;        
+    }
+    .infoBMI {
+        border: 1px solid black;
+        background-color: burlywood;
+        height: 175px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
